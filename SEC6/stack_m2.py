@@ -26,5 +26,8 @@ class Stack:
              self.top = new_node #la ref se mueve al nodo recien agregado 
         self.height +=1 
         return True
+        
     def pop(self):
-        pass         
+        if self.length == 0: 
+            return None
+        pass           
