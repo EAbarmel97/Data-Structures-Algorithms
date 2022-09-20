@@ -1,1 +1,2 @@
-* Este repo es mi seguimiento del curso Data Structures & Algorithms - Python de Scott Barrett en la plataforma UDEMY
+# Este repo es mi seguimiento del curso "Data Structures & Algorithms - Python" de Scott Barrett en la plataforma UDEMY
+* cada carpeta tiene clase que define para la ADS (Abstract Data Structure) y los métodos que se definen con esta. 

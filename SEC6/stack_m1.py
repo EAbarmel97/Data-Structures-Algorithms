@@ -21,9 +21,9 @@ class Stack:
         #cuando la lista tiene 0 elementos 
         if self.height == 0:
             self.top = new_node #referencia del nodo 
-        #lista con 1 elemento o más     
+        #lista con 1 elemento o mas     
         else:
-             new_node.next = self.top #el nuevo nodo apunta a la ref del último nodo 
+             new_node.next = self.top #el nuevo nodo apunta a la ref del ultimo nodo 
              self.top = new_node #la ref se mueve al nodo recien agregado 
         self.height +=1 
         return True      
@@ -32,7 +32,7 @@ my_stack = Stack(2)
 my_stack.print_stack()
 my_stack.push(1)
 
-print("\t")
+print('\n')
 my_stack.print_stack()
 
 
