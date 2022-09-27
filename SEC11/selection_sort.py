@@ -9,7 +9,8 @@ def selection_sort(array):
             temp = array[i] #var auxiliar pra guardar el valor 
             array[i] = array[min_index] #el valor de la i-esima entrada se cambia por la de
         #la j-esima entrada 
-            array[min_index] = temp #la 
+            array[min_index] = temp #el valor de la j-esima entrada se cambia por la de
+        #la i-esima entrada
     return array #lista ordenada    
         
 

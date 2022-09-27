@@ -1,6 +1,6 @@
 def bubble_sort(array):
     for i in range(len(array)-1, 0,-1):#se toma len(lista) -1 porque python las listas empiezan en 0. 
-        for j in range(i):
+        for j in range(i):#comparamos con las elementos de indices < i
             if array[j] > array[j+1]:
                 temp = array[j] #var auxiliar para guardar 
                 #el valor de la j-esima entrada
