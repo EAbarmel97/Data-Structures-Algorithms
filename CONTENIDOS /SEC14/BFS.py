@@ -10,7 +10,7 @@ class BST:
         new_node = Node(value)
         self.root = new_node
 
-#para agregar elemento al BST
+#para agregar elemento al BST 
     def insert(self, value):
         new_node = Node(value)
         if self.root is None:
@@ -52,7 +52,7 @@ class BST:
                 return True #el valor se encuentra en algun nodo
         return False #cuando elemento no se encuentra en el arbol   
 
-    #encontrar el minimo de un subnodo
+    #encontrar el minimo de un subnodo 
     def min_value_subnode(self,current_node):
         
         while current_node.left is not None:
@@ -66,7 +66,7 @@ class BST:
         results = [] #resulatdos de recorrer padre-hijo izquierdo-hijo derecho
         queue.append(current_node) #agregrar el nodo sobre el que actualmente esta 
         while len(queue) != 0:
-            current_node = queue.pop(0) 
+            current_node = queue.pop(0)
             results.append(current_node.value)
             if current_node.left is not None:
                 queue.append(current_node.left) #el hijo izq se agrega a la cola
