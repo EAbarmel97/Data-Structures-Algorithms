@@ -15,7 +15,7 @@ def partition(array,pivot_index,end_index):
     swap(array,index+1,end_index) #intercambiar las entradas 
     return index + 1 #indice para la particion 
 
-my_list = [2,8,7,1,3,5,6,4]
+""" my_list = [2,8,7,1,3,5,6,4]
 
 print(partition(my_list,0,6))
-print(my_list)
+print(my_list) """
